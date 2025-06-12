@@ -1,0 +1,11 @@
+student_details={}
+student_details["First_name"]=input("Enter your first name:")
+student_details["Last_name"]=input("Enter your last name:")
+student_details["Contact number"]=int(input("Enter your contact number:"))
+student_details["Gender"]=input("Enter your gender:")
+student_details["Highest qualification"]=input("Enter your highest qualification:")
+student_details["Current ongoing degree"]=input("Current ongoing degree:")
+student_details["DOB"]=int(input("Enter your DOB:"))
+student_details["Password"]=input("Enter your password:")
+student_details["Mail_id"]=input("Enter your mail id:")
+print(student_details)

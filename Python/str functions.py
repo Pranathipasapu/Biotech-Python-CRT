@@ -1,0 +1,7 @@
+str=input("Enter the string:")
+print(f"User entered string is:{str}")
+print(f"checking if the string starts with p or not:",str.startswith('p'))
+print(f"checking if the string ends with ing or not:",str.startswith('ing'))
+print(f"Index of a in the string:",str.index('a'))
+print(f"Count of m in the string:",str.count('m'))
+print(f"Replacing p with j in the string:",str.replace('p','j'))
